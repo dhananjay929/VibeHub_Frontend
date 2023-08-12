@@ -32,9 +32,8 @@ const Homemid = () => {
     
           method: 'DELETE',
           headers: {'Content-Type': 'application/json' }  ,
-          body: JSON.stringify( {postId} ) });
-          
-          // credentials: 'include'
+          body: JSON.stringify( {postId} ),
+          credentials: 'include' });
          
           const data = await response.json();
           if (response.status===200) {
@@ -67,9 +66,8 @@ const Homemid = () => {
                        title: document.getElementById('edit-title').value,
                        description: document.getElementById('edit-description').value,
                        tag: document.getElementById('edit-tag').value
-                    } ) });
-                    
-          // credentials: 'include'
+                    } ),
+          credentials: 'include' });
          
           const data = await response.json();
           // console.log(data)
