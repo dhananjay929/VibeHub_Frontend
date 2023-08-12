@@ -12,7 +12,7 @@ const Homemid = () => {
   
   const fetchFeedData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/feed");
+      const response = await fetch("https://vibe-hub-backend.vercel.app/api/feed");
       if (response.ok) {
         const data = await response.json();
         // console.log(data)
@@ -28,7 +28,7 @@ const Homemid = () => {
    const handleDelete=async(postId)=>{
         try {
 
-          const response= await fetch("http://localhost:5000/api/delete/:postId", {
+          const response= await fetch("https://vibe-hub-backend.vercel.app/api/delete/:postId", {
     
           method: 'DELETE',
           headers: {'Content-Type': 'application/json' }  ,
@@ -57,7 +57,7 @@ const Homemid = () => {
       const handleEdit=async()=>{
         try {
 
-          const response= await fetch("http://localhost:5000/api/edit/:postId", {
+          const response= await fetch("https://vibe-hub-backend.vercel.app/api/edit/:postId", {
     
           method: 'PUT',
           headers: {'Content-Type': 'application/json' }  ,

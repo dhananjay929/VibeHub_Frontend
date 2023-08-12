@@ -14,7 +14,7 @@ const Writepost = () => {
     const handleWrite=async(e)=>{
         try {
           e.preventDefault();
-          const response= await fetch("http://localhost:5000/api/write", {
+          const response= await fetch("https://vibe-hub-backend.vercel.app/api/write", {
             
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
