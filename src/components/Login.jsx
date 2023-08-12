@@ -22,8 +22,10 @@ const Login = () => {
 
       method: 'POST',
       headers: {'Content-Type': 'application/json' },
-      body: JSON.stringify( { email,password } ),
-      credentials: 'include' });
+      body: JSON.stringify( { email,password } ) });
+
+    
+      // credentials: 'include'
       const data = await response.json();
       if (response.status===200) {
         setPopupMessage("Login Succesfull !");
