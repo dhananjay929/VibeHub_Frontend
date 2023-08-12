@@ -18,8 +18,9 @@ const Writepost = () => {
             
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify( { title,description,tag } ),
-            credentials: 'include' });
+            body: JSON.stringify( { title,description,tag } ) });
+            
+            // credentials: 'include'
             const data = await response.json();
             if (response.status===201) {
               setPopupMessage("Posted Successfully !");
