@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(9, 7, 59)
+    /* scrollbar-width: none; Firefox */
+  /* -ms-overflow-style: none; Internet Explorer 10+ */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+body::-webkit-scrollbar {
+  /* width: 0.5rem; Adjust width as needed */
+  display: none; /* Hide scrollbar */
+}
+
+/* //rgb(110, 251, 110)   rgb(234, 157, 237)*/
+.logform{
+    display: grid;
+    padding: 50px;
+    border-radius: 3%;
+    color: rgb(35, 206, 158);
+    box-shadow: 9px 9px 3px rgba(0, 0, 0, 0.2);
+}
+.page{
+/* position: absolute; */
+display: flex;
+justify-content: center;
+align-self: center;
+margin-top: 10px;
+margin-bottom: 10%;
+
+}
+#navhead{
+    /* color: rgb(35, 206, 158); */
+    color: rgb(122, 118, 246);
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+     font-weight:bolder ;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 5px;
+     padding-bottom: 0;
+     /* border-left:solid  rgb(209, 77, 209); */
+     /* border-bottom:solid rgb(35, 206, 158); */
+     display: flex;
+     justify-content: center;
+     
+    }
+    .feed{
+        background-color: rgb(248, 217, 177);
+        color: rgb(73, 73, 49);
+        
+    }
+ 
+.form-control{
+    background-color: rgba(43, 42, 22, 0);
+    color: rgb(35, 206, 158);
+    border-color: rgb(35, 206, 158);
+    
+    
+}
+.form-control:focus{
+    background-color: rgba(0, 0, 0, 0.207);
+    color: rgb(35, 206, 158);
+}
+.butt{
+    background-color: rgb(35, 206, 158);
+    
+}
+
+.write{
+    background-color: rgba(93, 85, 17, 0.351);
+    color: aqua;
+
+}
+.navitem{
+  color: whitesmoke;
+  padding-right: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#homenav{
+    background-color: rgba(9, 1, 1, 0.63);
+}
+#home{
+    display: flex;
+    /* justify-content:space-evenly; */
+    
+}
+#homemid{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sticky-card{
+    position: sticky;
+    top:82px;
+    margin: 10px;
+    margin-left: 0px;
+    border: 1px solid  rgb(65, 65, 241);
+    border-radius: 5%;
+
+}
+.right{
+    /* background-color: rgb(37, 34, 118); */
+    background-color: rgb(84, 80, 180);
+    height: 140px;
+
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .subnav{
+    background-color: rgb(84, 80, 180);
+    color: rgb(161, 227, 238);
+    margin: 2px;
+    margin-top: 0px;
+  }
+  .sticky-subnav {
+      position: sticky;
+      top: 63px; 
+      z-index: 1000;
+    }
+   .aboutcon{
+    background-color: rgb(127, 125, 208);
+    color: whitesmoke;
+   }
+   .abouthead{
+    background-color: rgb(71, 71, 147);
+    color: whitesmoke;
+   }
+   .ab{
+    margin-top: 50px;
+   }
+   .post{
+    /* background-color: ; */
+    background-color: rgb(65, 65, 241);
+    color: white;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border: 3px solid  rgb(96, 96, 208);
+    margin: 5px;
+    margin-top: 50px;
+    border-radius: 5%;
+   }
+   #editpop{
+    background-color:rgb(96, 96, 208);
+    color: white;
+    border: 3px solid  rgb(65, 65, 241);
+
+   }
+  
